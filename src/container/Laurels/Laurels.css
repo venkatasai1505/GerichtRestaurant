@@ -1,0 +1,33 @@
+.app__bg{
+ margin-top: 150px;
+}
+
+.app__laurels_award {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: wrap;
+  align-items: center;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.app__laurels_award-card {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 230px;
+  margin: 1rem;
+}
+
+.app__wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app__wrapper_img>img{
+    max-width: 30vw;
+}
